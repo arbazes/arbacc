@@ -54,6 +54,11 @@ public class VisitorController {
 	@RequestMapping("/newVistor.htm")
 	public ModelAndView newVisitor(HttpServletRequest request,
 			HttpServletResponse response) throws Exception {
+		
+		
+		System.out.println("Changes");
+		
+		
 		if(request==null || response==null)
 		{
 			log.info("Request or Response failed for NEWVISITOR METHOD..");
