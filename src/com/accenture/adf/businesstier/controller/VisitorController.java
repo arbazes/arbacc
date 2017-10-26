@@ -70,7 +70,7 @@ public class VisitorController {
 		String lastname=request.getParameter("LASTNAME");
 		String email=request.getParameter("EMAIL");
 		String phoneno=request.getParameter("PHONENO");
-		String place=request.getParameter("PLACE");
+		String place=request.getParameter("ADDRESS");
 		
 		log.info("creating new visitor with UserName :"+username);
 		
