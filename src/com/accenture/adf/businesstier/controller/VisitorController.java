@@ -72,6 +72,7 @@ public class VisitorController {
 		String phoneno=request.getParameter("PHONENO");
 		String place=request.getParameter("ADDRESS");
 		
+		System.out.println("change made");
 		log.info("creating new visitor with UserName :"+username);
 		
 		Visitor visitor=new Visitor();
